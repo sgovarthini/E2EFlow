@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Academy.E2Eflow.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="test2(failed)">
+    <classes>
+      <class name="Academy.E2Eflow.Validatingtitle">
+        <methods>
+          <include name="test2"/>
+          <include name="closebrowser"/>
+          <include name="reportconfig"/>
+        </methods>
+      </class> <!-- Academy.E2Eflow.Validatingtitle -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

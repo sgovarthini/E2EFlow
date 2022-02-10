@@ -1,0 +1,6 @@
+20:51:49.259 [main] INFO  Academy.E2Eflow.base - Driver closed cccccccccccccccccccccccccccccccccccc
+14:41:25.285 [TestNG-tests-3] INFO  Academy.E2Eflow.base - Driver Initialized
+14:41:25.285 [TestNG-tests-2] INFO  Academy.E2Eflow.base - Driver Initialized
+14:41:33.766 [TestNG-tests-3] INFO  Academy.E2Eflow.base - driver opened successfully
+14:41:38.133 [TestNG-tests-2] INFO  Academy.E2Eflow.base - User name entered successfully...uuuuuuuuuuu
+14:41:39.282 [TestNG-tests-3] INFO  Academy.E2Eflow.base - Driver closed cccccccccccccccccccccccccccccccccccc

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-08T09:30:20Z" name="Suite" finished-at="2022-02-08T09:30:31Z" duration-ms="11491">
+    <groups>
+    </groups>
+    <test started-at="2022-02-08T09:30:20Z" name="test" finished-at="2022-02-08T09:30:20Z" duration-ms="10">
+    </test> <!-- test -->
+    <test started-at="2022-02-08T09:30:20Z" name="test2" finished-at="2022-02-08T09:30:28Z" duration-ms="8568">
+      <class name="Academy.E2Eflow.Validatingtitle">
+        <test-method is-config="true" signature="reportconfig()[pri:0, instance:Academy.E2Eflow.Validatingtitle@36bc415e]" started-at="2022-02-08T09:30:20Z" name="reportconfig" finished-at="2022-02-08T09:30:20Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportconfig -->
+        <test-method signature="test2()[pri:0, instance:Academy.E2Eflow.Validatingtitle@36bc415e]" started-at="2022-02-08T09:30:20Z" name="test2" finished-at="2022-02-08T09:30:27Z" duration-ms="6853" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at Academy.E2Eflow.Validatingtitle.test2(Validatingtitle.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Academy.E2Eflow.Validatingtitle@36bc415e]" started-at="2022-02-08T09:30:27Z" name="closebrowser" finished-at="2022-02-08T09:30:28Z" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.E2Eflow.Validatingtitle -->
+    </test> <!-- test2 -->
+    <test started-at="2022-02-08T09:30:20Z" name="test1" finished-at="2022-02-08T09:30:31Z" duration-ms="11491">
+      <class name="Academy.E2Eflow.homepage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.E2Eflow.homepage@312afbc7]" started-at="2022-02-08T09:30:20Z" name="initialize" finished-at="2022-02-08T09:30:22Z" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2Eflow.homepage@312afbc7]" started-at="2022-02-08T09:30:22Z" name="test1" data-provider="getdata" finished-at="2022-02-08T09:30:28Z" duration-ms="5803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[norestricteduser@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwdrrr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.E2Eflow.homepage@312afbc7]" started-at="2022-02-08T09:30:28Z" name="test1" data-provider="getdata" finished-at="2022-02-08T09:30:31Z" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwdsse]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Academy.E2Eflow.homepage@312afbc7]" started-at="2022-02-08T09:30:31Z" name="closebrowser" finished-at="2022-02-08T09:30:31Z" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Academy.E2Eflow.homepage -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

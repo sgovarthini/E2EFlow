@@ -1,0 +1,6 @@
+20:34:41.063 [TestNG-tests-2] INFO  Academy.E2Eflow.base - User name entered successfully...uuuuuuuuuuu
+20:34:43.938 [TestNG-tests-2] INFO  Academy.E2Eflow.base - User name entered successfully...uuuuuuuuuuu
+20:34:44.430 [TestNG-tests-2] INFO  Academy.E2Eflow.base - Driver closed cccccccccccccccccccccccccccccccccccc
+20:36:41.449 [TestNG-tests-2] INFO  Academy.E2Eflow.base - Driver Initialized
+20:36:41.449 [TestNG-tests-3] INFO  Academy.E2Eflow.base - Driver Initialized
+20:36:45.766 [TestNG-tests-3] INFO  Academy.E2Eflow.base - driver opened successfully

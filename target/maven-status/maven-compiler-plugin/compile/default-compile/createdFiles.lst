@@ -1,0 +1,6 @@
+pageObject\ForgotPassword.class
+Academy\E2Eflow\ExtentReporterNG.class
+pageObject\LandingPage.class
+Academy\E2Eflow\base.class
+Academy\E2Eflow\App.class
+pageObject\Loginpage.class
